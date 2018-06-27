@@ -23,13 +23,13 @@ stops.delete_at(2)
 stops.length
 # How many ways can we return "Falkirk High" from the array?
 #instructions unclear
-# return stops[2]
-
-# for stations in stops
-#  if station == "Falkirk high"
-#    return "Falkirk High"
-#  end
-#
+        # return stops[2]
+#???
+        # for stations in stops
+        #  if station == "Falkirk high"
+        #    return "Falkirk High"
+        #  end
+        #
 
 # Reverse the positions of the stops in the array
 stops.reverse!()

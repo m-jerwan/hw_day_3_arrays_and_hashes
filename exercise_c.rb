@@ -27,5 +27,13 @@ temp_hash = {
 }
 united_kingdom.push(temp_hash)
 # Use a loop to print the names of all the countries in the UK.
+#====WHY THERE IS AN EMPTY SPACE AT THE BEGINING??
+for country in united_kingdom
+  p country[:name]
+end
 
 # Use a loop to find the total population of the UK.
+total_pop = 0
+for population in united_kingdom
+  total_pop += population[:population]
+end
